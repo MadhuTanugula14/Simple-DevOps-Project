@@ -8,8 +8,16 @@
    ```sh 
    # Create tomcat directory
    cd /opt
+   for tomcat-8 version
    wget http://mirrors.fibergrid.in/apache/tomcat/tomcat-8/v8.5.35/bin/apache-tomcat-8.5.35.tar.gz
    tar -xvzf /opt/apache-tomcat-8.5.35.tar.gz
+   
+   for tomcat-8
+   sudo wget https://downloads.apache.org/tomcat/tomcat-8/v8.5.66/bin/apache-tomcat-8.5.66.tar.gz
+   tar -xvzf /opt/apache-tomcat-8.5.66.tar.gz
+   for tomcat-9
+   sudo wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.46/bin/apache-tomcat-9.0.46.tar.gz
+   tar -xvzf /opt/apache-tomcat-9.0.46.tar.gz
    ```
 1. give executing permissions to startup.sh and shutdown.sh which are under bin. 
    ```sh
